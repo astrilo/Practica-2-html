@@ -1,0 +1,25 @@
+#cabecera {font-size: 30px;
+color: green;
+}
+#btnguardar{
+	margin-left: 50%;
+	height: 40px;
+	width: 100px;
+}
+
+#cajalab {
+	width: 80%;
+	margin-left: 10%;
+}
+#cajapers {
+	width: 80%;
+	margin-left: 10%;
+}
+#cajanac {
+	width: 80%;
+	margin-left: 10%;
+}
+#cajacont {
+	width: 80%;
+	margin-left: 10%;
+}

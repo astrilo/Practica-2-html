@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="description" content="Ejemple de HTM5"/>
+		<meta name="Keywords" content="HTML5, CSS3, Javascript"/>
+		<link rel="stylesheet" type="text/css" href="estilop2.css">
+		<title>Practica 2</title>
+	</head>
+	<body>
+		<header id="cabecera">Registro</header>
+		<fieldset id="cajalab">
+			<legend>Laboral</legend><br>
+			<label for="txtcod">Codigo de Empleado</label><br>
+			<input type="text" size="20" maxlength="10" id="txtcod" name="codigo"/><br><br>
+			<label for="fingre">Fecha de Ingreso</label><br>
+			<input type="date" id="fingre" name="fecha_de_ingreso"><br><br>
+			<label for="txtnss">Numero de seguridad social (NSS)</label><br>
+			<input type="text" size="20" maxlength="15" id="txtnss" name="nss"><br><br>
+			<label for="txtnum">Numero</label><br>
+			<input type="text" size="20" maxlength="15" id="txtnum" name="num"><br><br>
+		</fieldset>
+		<fieldset id="cajapers">
+			<legend>Personal</legend><br>
+			<label for="txtNombre">Nombre</label><br>
+			<input type="text" size="40" maxlength="25" id="txtNombre" name="nombre"/><br><br>
+			<label for="txtapep">Apellido paterno</label><br>
+			<input type="text" size="40" maxlength="15" id="txtapep" name="apellidop"><br><br>
+			<label for="txtapem">Apellido Materno</label><br>
+			<input type="text" size="40" maxlength="15" id="txtapem" name="apellidom"><br><br>
+			<label>Foto</label><br>
+			<textarea></textarea>
+		</fieldset>
+		<fieldset id="cajanac">
+			<legend>Nacimiento</legend><br>
+			<label for="fnac">Fecha de nacimiento</label><br>
+			<input type="date" id="fnac" name="fecha_de_nacimiento"><br><br>
+			<label>Pais de nacimiento</label><br>
+			<select name="pais">
+				<option selected="selected">Argentina</option>
+				<option>Brasil</option>
+				<option>Colombia</option>
+				<option>Dinamarca</option>
+				<option>Estonia</option>
+				<option>Finlandia</option>
+				<option>Guatemala</option>
+				<option>Honduras</option>
+				<option>Mexico</option>
+				<option>Nueva Zelanda</option>
+				<option>Rusia</option>
+				<option>Ucrania</option>
+			</select><br>
+		</fieldset>
+		<fieldset id="cajacont">
+			<legend>Contacto</legend><br>
+			<label for="txttitle">Titulo</label><br>
+			<input type"text" size="40" maxlength="25" id="txttitle" name="titulo"><br><br>
+			<label for="txtcurp">Curp</label><br>
+			<input type"text" size="40" maxlength="25" id="txtcurp" name="curp"><br><br>
+			<label for="txtrfc">RFC</label><br>
+			<input type"text" size="20" maxlength="25" id="txtrfc" name="rfc"><br><br>
+			<label for="txttel">Telefono</label><br>
+			<input type"text" size="20" maxlength="25" id="txttel" name="telefono"><br><br>
+			<label for="txtcel">Celular</label><br>
+			<input type"text" size="20" maxlength="25" id="txtcel" name="celular"><br><br>
+			<label for="txtdom">Domicilio</label><br>
+			<input type"text" size="40" maxlength="25" id="txtdom" name="domicilio"><br><br>
+			<label for="txtcol">Colonia</label><br>
+			<input type"text" size="40" maxlength="25" id="txtcol" name="colonia"><br><br>
+			<label for="txtcp">Codigo Postal</label><br>
+			<input type"text" size="10" maxlength="25" id="txtcp" name="codigo_postal"><br><br>
+			<label for="txtpais">Pais</label><br>
+			<input type"text" size="20" maxlength="25" id="txtpais" name="pais"><br><br>
+			<label for="txtrad">Radio</label><br>
+			<input type"text" size="20" maxlength="25" id="txtrad" name="radio"><br><br>
+			<label for="txtem">Correo Electronico</label><br>
+			<input type"text" size="40" maxlength="25" id="txtem" name="email"><br><br>
+			<label for="txtobser">Observaciones</label><br>
+			<textarea id="txtobser" name="observaciones" cols="30" rows="10">Observaciones</textarea>
+		</fieldset>
+		<input type="submit" name="enviar" value="Guardar" id="btnguardar" />
+	</body>
+</html>	
